@@ -49,7 +49,7 @@
       "bucket_name": "syed-moinuddin-14",
       "bucket_policy": "",
       "enable_versioning": true,
-      "enable_website_configuration": false,
+      "enable_website_configuration": true,
       "source": "./modules/aws_s3",
       "sse_algorithm": "aws:kms",
       "tags": {
@@ -60,7 +60,7 @@
       "website_index_document": "index.html"
     },
     "appcd_86ec452a-770a-59bf-87dd-67ed883e25e5": {
-      "name": "/aws/lambda/hello-kitty-function",
+      "name": "/aws/lambda/hello-kitty-function-syed-moinuddin-14",
       "retention_in_days": 7,
       "source": "./modules/aws_cloudwatch_log_group",
       "tags": {
